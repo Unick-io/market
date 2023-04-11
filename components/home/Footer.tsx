@@ -55,7 +55,7 @@ const companySectionLinks = [
   },
   {
     name: 'Privacy Policy',
-    href: 'https://reservoir.tools/privacy',
+    href: 'https://docs.unick.io/privacy-policy',
   },
 ]
 
