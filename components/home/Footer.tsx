@@ -51,7 +51,7 @@ const developerSectionLinks = [
 const companySectionLinks = [
   {
     name: 'Terms of Service',
-    href: '/terms',
+    href: 'https://docs.unick.io/Terms-of-service',
   },
   {
     name: 'Privacy Policy',
