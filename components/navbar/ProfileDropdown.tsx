@@ -15,6 +15,7 @@ import { faCopy, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useENSResolver } from 'hooks'
 import CopyText from 'components/common/CopyText'
+import Image from 'next/image'
 
 export const ProfileDropdown: FC = () => {
   const { address } = useAccount()
@@ -46,6 +47,17 @@ export const ProfileDropdown: FC = () => {
 
   const children = (
     <>
+    <Flex justify="between" align="center" css={{ width: '100%' }}>
+    <Image
+      src="/unickLogo.png"
+      width={34}
+      height={34}
+      alt="Unick"
+    />
+      <Text style="body1">
+      {shortEnsName ? shortEnsName : shortAddress}
+      </Text>
+    </Flex>
       <DropdownMenuItem
         onClick={(e) => {
           e.preventDefault()
@@ -54,13 +66,13 @@ export const ProfileDropdown: FC = () => {
         <Link href={`/profile/${address}`} style={{ flex: 1 }}>
           <Flex justify="between" align="center" css={{ width: '100%' }}>
             <Text style="body1">
-              {shortEnsName ? shortEnsName : shortAddress}
+            My Items 
             </Text>
           </Flex>
         </Link>
       </DropdownMenuItem>
       <Link href={`/portfolio`}>
-        <DropdownMenuItem>Portfolio</DropdownMenuItem>
+        <DropdownMenuItem>Sell</DropdownMenuItem>
       </Link>
       <DropdownMenuItem css={{ cursor: 'text' }}>
         <Flex justify="between">

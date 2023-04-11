@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { Text, Box, Flex, Anchor, Button } from '../primitives'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiscord, faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import { useTheme } from 'next-themes'
 import Image from 'next/image'

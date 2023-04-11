@@ -24,7 +24,7 @@ Overall, Unick.io is a game-changer in the NFT space, providing users with a sea
 
 ## Contact
 
-Twitter: [@reservoir0x](https://twitter.com/reservoir0x)
-Project Link: [Reservoir](https://reservoirprotocol.github.io/)
+Twitter: [@unick_io](https://twitter.com/unick_io)
+Discord: [Unick](https://discord.gg/Rnmut7dV)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

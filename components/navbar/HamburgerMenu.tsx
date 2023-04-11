@@ -14,7 +14,7 @@ import {
   faRightFromBracket,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useAccount, useBalance, useDisconnect } from 'wagmi'
@@ -68,10 +68,10 @@ const HamburgerMenu = () => {
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
               <Image
-                src="/reservoirLogo.svg"
+                src="/unickLogo.png"
                 width={34}
                 height={39}
-                alt="Reservoir"
+                alt="Unick"
               />
             </Box>
           </Link>
@@ -214,7 +214,7 @@ const HamburgerMenu = () => {
             }}
           >
             <Flex direction="column">
-              <Link href="/" legacyBehavior>
+              <Link href="/collection-rankings" legacyBehavior>
                 <Text
                   style="subtitle1"
                   css={{
@@ -243,7 +243,7 @@ const HamburgerMenu = () => {
                 </Text>
               </Link>
               <Anchor
-                href="https://docs.reservoir.tools/docs"
+                href="https://launchpad.unick.io"
                 target="_blank"
                 css={{
                   borderBottom: '1px solid $gray4',
@@ -253,8 +253,21 @@ const HamburgerMenu = () => {
                   width: '100%',
                 }}
               >
-                <Text style="subtitle1">Docs</Text>
+                <Text style="subtitle1">Launchpad</Text>
               </Anchor>
+              <Anchor
+              href="https://docs.unick.io"
+              target="_blank"
+              css={{
+                borderBottom: '1px solid $gray4',
+                cursor: 'pointer',
+                pb: '$4',
+                pt: '24px',
+                width: '100%',
+              }}
+            >
+              <Text style="subtitle1">Docs</Text>
+            </Anchor>
             </Flex>
             <Box>
               <ConnectWalletButton />
@@ -271,7 +284,7 @@ const HamburgerMenu = () => {
             borderTop: '1px solid $gray4',
           }}
         >
-          <a href="https://twitter.com/reservoir0x" target="_blank">
+          <a href="https://twitter.com/unick_io" target="_blank">
             <Button
               css={{ justifyContent: 'center', width: '44px', height: '44px' }}
               type="button"
@@ -281,6 +294,24 @@ const HamburgerMenu = () => {
               <FontAwesomeIcon icon={faTwitter} width={20} height={20} />
             </Button>
           </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://discord.gg/Rnmut7dV"
+          >
+            <Button size="xs" color="gray3">
+              <FontAwesomeIcon icon={faDiscord} width={14} height={14} />
+            </Button>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/unick_io"
+          >
+            <Button size="xs" color="gray3">
+              <FontAwesomeIcon icon={faInstagram} width={14} height={14} />
+            </Button>
+          </a>         
           <ThemeSwitcher />
         </Flex>
       </Flex>
