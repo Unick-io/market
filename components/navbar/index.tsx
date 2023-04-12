@@ -133,7 +133,7 @@ const Navbar = () => {
             <Link href="/portfolio">
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
             </Link>
-            <Link href="https://docs.unick.io">
+            <Link href="https://launchpad.unick.io">
             <NavItem active={false}>Launchpad</NavItem>
           </Link>
             <Link href="https://docs.unick.io">
