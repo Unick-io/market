@@ -171,7 +171,7 @@ function MyApp({
               <RainbowKitProvider
                 chains={chains}
                 theme={rainbowKitTheme}
-                modalSize="default"
+                modalSize="wide"
               >
                 <ToastContextProvider>
                   <FunctionalComponent {...pageProps} />
