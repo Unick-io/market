@@ -68,7 +68,7 @@ const HamburgerMenu = () => {
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
               <Image
-                src="/unickLogo.png"
+                src="/unick-logo.png"
                 width={34}
                 height={39}
                 alt="Unick"

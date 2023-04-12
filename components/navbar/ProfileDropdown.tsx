@@ -49,7 +49,7 @@ export const ProfileDropdown: FC = () => {
     <>
     <Flex justify="between" align="center" css={{ width: '100%' }}>
     <Image
-      src="/unickLogo.png"
+      src="/unick-logo.png"
       width={34}
       height={34}
       alt="Unick"
