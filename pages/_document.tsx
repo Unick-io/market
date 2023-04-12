@@ -39,28 +39,28 @@ class MyDocument extends Document {
         />
 
         {/* Reservoir meta tags */}
-        <meta property="Unick:title" content="Unick Market" />
-        <meta property="Unick:icon"
+        <meta property="reservoir:title" content="Unick Market" />
+        <meta property="reservoir:icon"
         content="https://marketplace.unick.io/unick-logo.png"
         />
         <meta
-          property="Unick:token-url-mainnet"
+          property="reservoir:token-url-mainnet"
           content="/collection/ethereum/${contract}/${tokenId}"
         />
         <meta
-          property="Unick:token-url-goerli"
+          property="reservoir:token-url-goerli"
           content="/collection/goerli/${contract}/${tokenId}"
         />
         <meta
-          property="Unick:token-url-polygon"
+          property="reservoir:token-url-polygon"
           content="/collection/polygon/${contract}/${tokenId}"
         />
         <meta
-        property="Unick:token-url-optimism"
+        property="reservoir:token-url-optimism"
         content="/collection/optimism/${contract}/${tokenId}"
         />
         <meta
-        property="Unick:token-url-arbitrum"
+        property="reservoir:token-url-arbitrum"
         content="/collection/arbitrum/${contract}/${tokenId}"
         />
         <body>
