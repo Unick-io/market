@@ -53,6 +53,14 @@ class MyDocument extends Document {
           property="unick:token-url-polygon"
           content="/collection/polygon/${contract}/${tokenId}"
         />
+        <meta
+        property="unick:token-url-optimism"
+        content="/collection/optimism/${contract}/${tokenId}"
+        />
+        <meta
+        property="unick:token-url-arbitrum"
+        content="/collection/arbitrum/${contract}/${tokenId}"
+        />
         <body>
           <Main />
           <NextScript />

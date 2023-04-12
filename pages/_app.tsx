@@ -130,6 +130,7 @@ function MyApp({
   let source = process.env.NEXT_PUBLIC_MARKETPLACE_SOURCE
   const marketplaceFee = 49
   let marketplaceFeeRecipient = process.env.NEXT_PUBLIC_FEE_RECIPIENT
+  
 
   if (!source && process.env.NEXT_PUBLIC_HOST_URL) {
     try {
@@ -163,6 +164,7 @@ function MyApp({
             normalizeRoyalties: NORMALIZE_ROYALTIES,
             marketplaceFee,
             marketplaceFeeRecipient,
+            disablePoweredByReservoir: true,
             }}
           theme={reservoirKitTheme}
         >

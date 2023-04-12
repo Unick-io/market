@@ -14,7 +14,7 @@ type Props = {
  * @param description - The description of the page.
  */
 export const Head: FC<Props> = ({
-  ogImage = 'https://marketplace.reservoir.tools/og-image.png',
+  ogImage = 'https://marketplace.unick.io/og-image.png',
   title = 'Unick Market | Unick NFT Marketplace Aggregator',
   description = 'Unick NFT Marketplace is a multi-chain NFT aggregator.',
 }) => {
