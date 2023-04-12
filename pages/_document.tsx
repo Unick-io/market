@@ -39,8 +39,11 @@ class MyDocument extends Document {
         />
 
         {/* Reservoir meta tags */}
-        <meta property="unick.io:title" content="Unick Market" />
-        <meta property="unick.io:icon" content="/favicon.ico" />
+        <meta property="unick:title" content="Unick Market" />
+        <meta property="unick:icon" content="/favicon.ico" />
+        <meta property="unick:icon"
+        content="https://marketplace.unick.io/unickLogo.png"
+        />
         <meta
           property="unick:token-url-mainnet"
           content="/collection/ethereum/${contract}/${tokenId}"
