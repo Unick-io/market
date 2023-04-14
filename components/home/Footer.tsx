@@ -109,7 +109,7 @@ export const Footer = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://discord.gg/Rnmut7dV"
+            href="https://discord.com/invite/gpnzJXBG8m"
           >
             <Button size="xs" color="gray3">
               <FontAwesomeIcon icon={faDiscord} width={14} height={14} />
