@@ -152,8 +152,6 @@ function MyApp({
       >
         <ReservoirKitProvider
           options={{
-            //CONFIGURABLE: Override any configuration available in RK: https://docs.reservoir.tools/docs/reservoirkit-ui#configuring-reservoirkit-ui
-            // Note that you should at the very least configure the source with your own domain
             chains: supportedChains.map(({ proxyApi, id }) => {
               return {
                 id,
