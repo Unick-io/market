@@ -335,7 +335,7 @@ const BatchListings: FC<Props> = ({
       </Flex>
       <Flex
         justify="between"
-        css={{ border: '1px solid $gray6', borderRadius: 8, p: 24 }}
+        css={{ border: '1px solid #6E56CB', borderRadius: 8, p: 24 }}
       >
         <Flex direction="column" css={{ gap: '$3' }}>
           <Text style="h6">Select Marketplaces</Text>
