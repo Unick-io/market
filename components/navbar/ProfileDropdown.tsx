@@ -66,17 +66,17 @@ export const ProfileDropdown: FC = () => {
         <Link href={`/profile/${address}`} style={{ flex: 1 }}>
           <Flex justify="between" align="center" css={{ width: '100%' }}>
             <Text style="body1">
-            My Items 
+            🎭My Items 
             </Text>
           </Flex>
         </Link>
       </DropdownMenuItem>
       <Link href={`/portfolio`}>
-        <DropdownMenuItem>Sell</DropdownMenuItem>
+        <DropdownMenuItem>💸Sell</DropdownMenuItem>
       </Link>
       <DropdownMenuItem css={{ cursor: 'text' }}>
         <Flex justify="between">
-          Balance
+        👛Balance
           <FormatCryptoCurrency
             amount={balance?.value}
             decimals={balance?.decimals}
@@ -93,7 +93,7 @@ export const ProfileDropdown: FC = () => {
             cursor: 'pointer',
           }}
         >
-          <Text style="body1">Logout</Text>
+          <Text style="body1">🔒Logout</Text>
           <Box css={{ color: '$gray10' }}>
             <FontAwesomeIcon icon={faRightFromBracket} width={16} height={16} />
           </Box>
