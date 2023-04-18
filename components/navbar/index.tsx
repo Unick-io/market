@@ -127,17 +127,17 @@ const Navbar = () => {
           <Flex align="center" css={{ gap: '$5', mr: '$5' }}>
             <Link href="/collection-rankings">
               <NavItem active={router.pathname == '/collection-rankings'}>
-                Collections
+              💎Collections
               </NavItem>
             </Link>
             <Link href="/portfolio">
-              <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
+              <NavItem active={router.pathname == '/portfolio'}>💸Sell</NavItem>
             </Link>
             <Link href="https://launchpad.unick.io">
-            <NavItem active={false}>Launchpad</NavItem>
+            <NavItem active={false}>🚀Launchpad</NavItem>
           </Link>
             <Link href="https://docs.unick.io">
-              <NavItem active={false}>Docs</NavItem>
+              <NavItem active={false}>📃Docs</NavItem>
             </Link>
           </Flex>
         </Flex>
