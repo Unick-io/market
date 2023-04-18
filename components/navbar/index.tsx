@@ -134,7 +134,7 @@ const Navbar = () => {
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
             </Link>
             <Link href="https://launchpad.unick.io">
-            <NavItem active={false}>🚀Launchpad</NavItem>
+            <NavItem active={false}>Launchpad</NavItem>
           </Link>
             <Link href="https://docs.unick.io">
               <NavItem active={false}>Docs</NavItem>
